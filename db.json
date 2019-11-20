@@ -1,0 +1,33 @@
+{
+  "interfaces": [
+    {
+      "id": 1,
+      "name": "GigabitEthernet1"
+    },
+    {
+      "id": 2,
+      "title": "GigabitEthernet2"
+    },
+    {
+      "id": 3,
+      "title": "GigabitEthernet3"
+    }
+  ],
+  "ips": [
+    {
+      "id": 1,
+      "address": "192.168.1.1",
+      "mask": "255.255.255/0"
+      "interfaceId": 1
+    },
+    {
+      "id": 1,
+      "address": "192.168.1.1",
+      "mask": "255.255.255/0"
+      "interfaceId": 2
+    }
+  ],
+  "profile": {
+    "name": "Cisco IOS-XE"
+  }
+}
