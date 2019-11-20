@@ -1,33 +1,31 @@
 {
-  "interfaces": [
+  "posts": [
     {
       "id": 1,
-      "name": "GigabitEthernet1"
+      "title": "Post 1"
     },
     {
       "id": 2,
-      "title": "GigabitEthernet2"
+      "title": "Post 2"
     },
     {
       "id": 3,
-      "title": "GigabitEthernet3"
+      "title": "Post 3"
     }
   ],
-  "ips": [
+  "comments": [
     {
       "id": 1,
-      "address": "192.168.1.1",
-      "mask": "255.255.255/0"
-      "interfaceId": 1
+      "body": "some comment",
+      "postId": 1
     },
     {
-      "id": 1,
-      "address": "192.168.1.1",
-      "mask": "255.255.255/0"
-      "interfaceId": 2
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
     }
   ],
   "profile": {
-    "name": "Cisco IOS-XE"
+    "name": "typicode"
   }
 }
